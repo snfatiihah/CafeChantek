@@ -281,7 +281,7 @@
                             <h5>Returning customer? <a class="ltn__secondary-color" href="#ltn__returning-customer-login" data-bs-toggle="collapse">Click here to login</a></h5>
                             <div id="ltn__returning-customer-login" class="collapse ltn__checkout-single-content-info">
                                 <div class="ltn_coupon-code-form ltn__form-box">
-                                    <p>Please login your account.</p>
+                                    <p>Please login your accont.</p>
                                     <form action="#" >
                                         <div class="row">
                                             <div class="col-md-6">
@@ -445,11 +445,9 @@
                                     <h6>Choose a Date</h6>
                                     
                                     <div class="row">
-									<div class="col-md-6">
                                         <form action="/action_page.php">
 										<input type="date" id="birthday" name="birthday">
 										</form>
-									</div>
 										
                                     </div>
 
@@ -554,15 +552,15 @@
                                 </h5>
                                 <div id="faq-item-2-1" class="collapse" data-bs-parent="#checkout_accordion_1">
                                     <div class="card-body">
-                                        <input type="radio" name="same" checked="checked"> Maybank2u<be>
-					<input type="radio" name="same"> CIMB Clicks<be>
-					<input type="radio" name="same"> Hong Leong Connect<be>
-					<input type="radio" name="same"> RHB Now<be>
-					<input type="radio" name="same"> Public Bank Online<be>
-					<input type="radio" name="same"> AmOnline<be>
-					<input type="radio" name="same"> Alliance Online<be>
-					<input type="radio" name="same"> UOB Personal Internet Banking<be>
-					<input type="radio" name="same"> Standard Chartered Online Banking<be>
+                                         <input type="radio" name="same" checked="checked"> Maybank2u<br>
+					<input type="radio" name="same"> CIMB Clicks<br>
+					<input type="radio" name="same"> Hong Leong Connect<br>
+					<input type="radio" name="same"> RHB Now<br>
+					<input type="radio" name="same"> Public Bank Online<br>
+					<input type="radio" name="same"> AmOnline<br>
+					<input type="radio" name="same"> Alliance Online<br>
+					<input type="radio" name="same"> UOB Personal Internet Banking<br>
+					<input type="radio" name="same"> Standard Chartered Online Banking<br>
 					<input type="radio" name="same"> HSBC Online Banking<br>
                                     </div>
                                 </div>
@@ -585,7 +583,9 @@
                                 </h5>
                                 <div id="faq-item-2-3" class="collapse" data-bs-parent="#checkout_accordion_1">
                                     <div class="card-body">
-                                        <p>Pay via Card; you can pay with your credit or debit card.</p>
+                                         <div class="input-item">
+                                                <input type="text" placeholder="Card No">
+                                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -637,7 +637,7 @@
                                     <li><a href="about.html">About us</a></li>
                                     <li><a href="faq.html">Frequesntly Asked Questions</a></li>
                                     <li><a href="contact.html">Help & Contact Us</a></li>
-                                    <li><a href="account.html">Returns & Refunds</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -738,3 +738,4 @@
 
 <!-- Mirrored from tunatheme.com/tf/html/fiama-preview/fiama/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Nov 2023 12:26:20 GMT -->
 </html>
+
