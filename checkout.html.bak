@@ -281,7 +281,7 @@
                             <h5>Returning customer? <a class="ltn__secondary-color" href="#ltn__returning-customer-login" data-bs-toggle="collapse">Click here to login</a></h5>
                             <div id="ltn__returning-customer-login" class="collapse ltn__checkout-single-content-info">
                                 <div class="ltn_coupon-code-form ltn__form-box">
-                                    <p>Please login your accont.</p>
+                                    <p>Please login your account.</p>
                                     <form action="#" >
                                         <div class="row">
                                             <div class="col-md-6">
@@ -554,7 +554,16 @@
                                 </h5>
                                 <div id="faq-item-2-1" class="collapse" data-bs-parent="#checkout_accordion_1">
                                     <div class="card-body">
-                                        <p>Pay with online banking transfer.</p>
+                                        <input type="radio" name="same" checked="checked"> Maybank2u<be>
+					<input type="radio" name="same"> CIMB Clicks<be>
+					<input type="radio" name="same"> Hong Leong Connect<be>
+					<input type="radio" name="same"> RHB Now<be>
+					<input type="radio" name="same"> Public Bank Online<be>
+					<input type="radio" name="same"> AmOnline<be>
+					<input type="radio" name="same"> Alliance Online<be>
+					<input type="radio" name="same"> UOB Personal Internet Banking<be>
+					<input type="radio" name="same"> Standard Chartered Online Banking<be>
+					<input type="radio" name="same"> HSBC Online Banking<br>
                                     </div>
                                 </div>
                             </div>
